@@ -1,0 +1,39 @@
+body{
+    background:#000000;
+}
+
+p.tipo2{
+    color:#87CEEB;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-decoration : underline
+}
+
+.detalhe{
+    color:#0000CD;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration : underline
+    
+}
+h1,h2{
+    color:#1C1C1C;
+
+}
+h3,h4,h5,h6{
+    color: #696969;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+
+}
+img {
+    width: 90px;
+    height: 80px;
+}
+img, p {
+    display: inline-block;
+    text-align:right;
+}
