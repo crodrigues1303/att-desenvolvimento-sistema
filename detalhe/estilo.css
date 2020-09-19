@@ -1,12 +1,16 @@
 body{
-    background:#000000;
+    background:#F5FFFA;
 }
 
 p.tipo2{
-    color:#87CEEB;
+    color:#00008B;
     font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
     text-align: left;
     text-decoration : underline
+   
+
 }
 
 .detalhe{
@@ -23,7 +27,7 @@ h1,h2{
 
 }
 h3,h4,h5,h6{
-    color: #696969;
+    color: #000000;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
 
