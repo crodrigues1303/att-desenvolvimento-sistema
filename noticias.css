@@ -1,0 +1,48 @@
+body {
+    background: #DCDCDC;
+}
+h1 {
+    text-align: center;
+    color: black;
+    font-family: Verdana;
+    font-size: 18pt;
+    font-weight: 900;
+}
+h2 {
+    text-align: left;
+    color: #000000;
+    font-family: Verdana;
+    font-size: 14pt;
+    font-weight: 700;
+}
+p {
+    text-align: justify;
+    color:#000000;
+    font-family: 'Courier New';    
+    font-size: 13pt;
+}
+p2 {
+    text-align: justify;
+    color:#000000;
+    font-family: 'Courier New';
+    font-size: 13pt;
+    font-style: italic;
+    border-width: medium;
+    border-style: double;
+    border-color:#0000CD;
+}
+p3 {
+    text-align: justify;
+    color:#000000;
+    font-family: 'Courier New';    
+    font-size: 13pt;
+}
+p::first-letter{
+    font-weight: 900;
+    font-size: 15pt;
+}
+
+
+
+
+
