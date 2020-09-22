@@ -30,11 +30,11 @@ h3,h4,h5,h6{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
 }
-img {
+.imagem {
     width: 90px;
     height: 80px;
 }
-img, p {
+.imagem, p {
     display: inline-block;
     text-align:right;
 }

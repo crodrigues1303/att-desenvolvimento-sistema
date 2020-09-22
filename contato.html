@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <title>Lista de Curso</title>
+</head>
+<body>
+   <img src="src/img/banner-faculdade-freire.jpeg" >
+    <div class="linksHeader">
+        <div>
+            <a href="index.html" class="links">Início</a>
+        </div>
+        <div>
+            <a href="disciplina.html" class="links">Disciplinas</a>
+        </div>
+        <div>
+            <a href="listadecursos.html" class="links">Lista de Cursos</a>
+        </div>
+        <div>
+            <a href="noticias.html" class="links">Noticias</a>
+        </div>
+        <div>
+            <a href="contato.html" class="links">Contato</a>
+        </div>
+    </div>
+    <center><h2>FALE CONOSCO</h2><br>
+        <table border="0" align="center">
+            <form name="faleconosco" action="" method="POST">
+            <tr>
+                <td><label>Nome:</label></td>
+                <td><input type="text" maxlength="100" name="nome" required/></td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label>Telefone:</label></td>
+                <td><input type="number" maxlength="11"  name="telefone" required></td>
+            </tr>
+            <tr>
+                <td><label>Motivo do contato:</label></td>
+                <td><input type="text" maxlength="50" name="motivo" required/></td>
+            </tr>
+        </table>
+            <label>Descrição:   </label></br>
+            <textarea  name="descricao"  rows="10" cols="40" maxlength="500"></textarea></br></br>
+            <input type="submit" value="Enviar"/>
+            <input type="reset" value="Limpar"/><br/></br>
+    
+        </form>    
+    </center><br>
+    <div class="copyright">
+        <label class="copyright ">
+            © Copyright 2020 Grupo Faculdade Impacta 
+        </label>
+    </div>
+</body>
+</html>
